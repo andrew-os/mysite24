@@ -6,6 +6,8 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --primary: #6696A8;
+  --swiper-pagination-color: #76ADC2;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,12 +18,10 @@
   }
 }
 
+/* *{
+  font-family: 'Fira Sans', sans-serif;
+}
+*/
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: #1A1A1A;
 }
