@@ -1,3 +1,4 @@
+import LatestCV from "@/components/LatestCV";
 
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
         <p>I am a UI designer and developer currently based in Plymouth, UK.</p>
         <div className="lg:mt-12">
           <div className="flex flex-row gap-5">
-
+            <LatestCV />
           </div>
         </div>
 

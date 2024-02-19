@@ -15,6 +15,14 @@ const config: Config = {
       },
       fontFamily: {
         sans: ['var(--font-standard)']
+      },
+      colors: {
+        'primary': '#4FB06A',
+        'secondary': '#87276A',
+        'brandblack': '#1a1a1a',
+      },
+      fontSize: {
+        'xxs' : ['10px','12px']
       }
     },
   },

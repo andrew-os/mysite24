@@ -25,3 +25,24 @@
 body {
   color: #1A1A1A;
 }
+
+.postcard-article.link--hovered::after{
+  background: #4FB06A;
+}
+.postcard-article::after{
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  height: 2px;
+  width: 75%;
+  background: #1A1A1A;
+  opacity: 50%;
+  transition: background 0.5s ease-in ;
+
+}
+
+.postcard-article__link{
+  position: absolute;
+  right: 12px;
+  bottom: -10px;
+}
