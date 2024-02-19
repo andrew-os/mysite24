@@ -46,3 +46,27 @@ body {
   right: 12px;
   bottom: -10px;
 }
+
+.h-shadow{
+  overflow: hidden;
+}
+.h-shadow::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 8px;
+  width: 186px;
+  background: #bdbdbd;
+  height: 100vh;
+  z-index: -1;
+}
+.h-shadow::after{
+  content: "";
+  position: absolute;
+  bottom: -50%;
+  left: 8px;
+  height: 98px;
+  background: #bdbdbd;
+  width: 100%;
+  z-index: -1;
+}
