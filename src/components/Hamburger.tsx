@@ -28,12 +28,14 @@ const HamburgerMenu: React.FC<HamburgerProps> = ({ setOpen, open }) => {
                     width: 2rem;
                     height: 2rem;
                     overflow:hidden;
+                    margin-top: 20px;
+                    right: 20px;
                 }
                 .hamburger__inner{
                     width: 2rem;
                     height: 0.25rem;
                     border-radius: 7px;
-                    background-color: #6696A8;
+                    background-color: #1a1a1a;
                     position: relative;
                     transform-origin: 1px;
                     transition: all 0.3s linear;

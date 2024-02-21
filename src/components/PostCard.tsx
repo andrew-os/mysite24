@@ -24,7 +24,7 @@ export default function PostCard({ title, link, text, tags, design, dev, imgSrc 
       <div className="aspect-[389/143] relative">
         <PostcardImg imgSrc={imgSrc} alt={title} />
       </div>
-      <article className={`flex flex-col py-5 relative postcard-article ${hovered ? `link--hovered` : ``}`}>
+      <article className={`flex flex-col grow py-5 relative postcard-article ${hovered ? `link--hovered` : ``}`}>
 
         <div className="items-center">
           <h2 className="uppercase text-3xl">{title}</h2>
@@ -46,7 +46,7 @@ export default function PostCard({ title, link, text, tags, design, dev, imgSrc 
           <a
             href={`${link}`}
             target="_blank"
-            className="text-xs uppercase font-bold tracking-wider postcard-article__link"
+            className="text-xs uppercase font-bold tracking-wider postcard-article__link opacity-80 hover:opacity-100"
             onMouseEnter={toggleHover}
             onMouseLeave={toggleHover}>
             VIEW</a>

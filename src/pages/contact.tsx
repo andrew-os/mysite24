@@ -9,7 +9,7 @@ export default function Contact() {
       <section className="lg:my-16 lg:px-9 px-5">
         <div className="flex">
           <p className="mr-5">EMAIL</p>
-          <a href="mailto:contact@andrewbe.me" target="_blank" className="font-bold uppercase">CONTACT@ANDREWBE.ME</a>
+          <a href="mailto:contact@andrewbe.me" target="_blank" className="font-bold uppercase opacity-80 hover-line">CONTACT@ANDREWBE.ME</a>
         </div>
       </section>
 

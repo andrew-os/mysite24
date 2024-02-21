@@ -15,8 +15,10 @@ export default function Header() {
     }, [ pathname ]);
   return (
     <>
-      <Nav open={open} />
-      <HamburgerMenu open={open} setOpen={setOpen} />
+      <div>
+        <Nav open={open} />
+        <HamburgerMenu open={open} setOpen={setOpen} />
+      </div>
     </>
   )
 }

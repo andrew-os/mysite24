@@ -84,7 +84,7 @@ export const devWork = [
   },
   {
     link: "https://www.limedigital.nz/",
-    imgSrc: "https://res.cloudinary.com/dr34kiiow/image/upload/v1707919856/abm/Screenshot_2024-02-14_at_14.07.03_zotlhg.jpg",
+    imgSrc: "https://res.cloudinary.com/dr34kiiow/image/upload/v1708529177/abm/lime-digital_f9vhxz.png",
     title: "Lime Digital",
     text: "Rebranding of a digital agency site. Vue 3 with a strapi backend",
     design: true,
@@ -102,8 +102,8 @@ export const devWork = [
     imgSrc: "https://res.cloudinary.com/dr34kiiow/image/upload/v1708004827/abm/Screenshot_2024-02-14_at_14.06-1_zc8hxp.jpg",
     title: "Holmes",
     text: "Property reporting web app. Custom React/NextJS build from Scratch. Custom React forms submitting state to Firebase backend",
-    design: true,
-    dev: false,
+    design: false,
+    dev: true,
     tags: [
       "ReactJS",
       "NextJS",
@@ -127,7 +127,7 @@ export const devWork = [
   },
   {
     link: "https://www.studiocanal.com/",
-    imgSrc: "https://res.cloudinary.com/dr34kiiow/image/upload/v1708004828/abm/Screenshot_2024-02-14_at_14.07_rdlynl.jpg",
+    imgSrc: "https://res.cloudinary.com/dr34kiiow/image/upload/v1708529177/abm/studiocanal_of2wtu.png",
     title: "Studio Canal",
     text: "Global studio similar to Netflix, custom API endpoint integrated into Wordpress site as well as custom React User Portal",
     design: false,
@@ -141,7 +141,7 @@ export const devWork = [
   },
   {
     link: "https://www.harrypottertheplay.com/",
-    imgSrc: "https://res.cloudinary.com/dr34kiiow/image/upload/v1708004827/abm/Screenshot_2024-02-14_at_14.06_nnxt44.jpg",
+    imgSrc: "https://res.cloudinary.com/dr34kiiow/image/upload/v1708529177/abm/hp_rotf1n.png",
     title: "Harry Potter and the Cursed Child",
     text: "Multi country sites, freelancing among the different located design studios and liasing between the main base in London. Minimal page design on select interior pages",
     design: true,

@@ -10,7 +10,7 @@ export default function Layout({ children }: LayoutProps) {
     <>
       <Header />
       <main className='mt-8'>{children}</main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }
