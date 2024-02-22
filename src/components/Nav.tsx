@@ -15,7 +15,7 @@ interface NavProps{
 export default function Nav({open}: NavProps) {
   const router = useRouter();
   return (
-    <nav className={`menu ${open ? `menu--open`: ``} lg:px-9 px-5`}>
+    <nav className={`menu ${open ? `menu--open`: ``} lg:px-9 `}>
       <ul className='menu__list lg:flex lg:flex-row lg:justify-end'>
         <li className='menu__list--item px-4 py-5'>
            <Link legacyBehavior={true} href="/">
