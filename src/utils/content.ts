@@ -1,7 +1,7 @@
 export const designWork = [
   {
     link: "",
-    imgSrc: "https://res.cloudinary.com/dr34kiiow/image/upload/v1707921119/abm/Screenshot_2024-02-14_at_14.29.37_cfdpkx.jpg",
+    imgSrc: "https://res.cloudinary.com/dr34kiiow/image/upload/v1708601028/abm/stm_hrkhmr.png",
     title: "ST MARYS HARBOUR",
     text: "Bringing an existing WordPress site into modern design trends. Corporate client with existing branding and strict brief and guidlines provided ",
     design: true,
@@ -15,7 +15,7 @@ export const designWork = [
   },
   {
     link: "https://lakesaudio.co.nz",
-    imgSrc: "https://res.cloudinary.com/dr34kiiow/image/upload/v1708341880/abm/lakes-audio_v9fegm.png",
+    imgSrc: "https://res.cloudinary.com/dr34kiiow/image/upload/v1708601027/abm/lakesaudio_vm09pp.png",
     title: "LAKES AUDIO NZ",
     text: "Branding of audio start up in Queenstown, New Zealand. Dark theme, gold based on Marshall amplifiers with inspiration on fonts taken from 1970s classic albums.",
     design: true,
@@ -28,7 +28,7 @@ export const designWork = [
     ]
   },
   {
-    link: "",
+    link: "https://www.figma.com/proto/WvGVDcXpgHptAAjfw5W2oN/Galley?type=design&node-id=1-2&t=kKkF5ob2AXX0zyUC-1&scaling=min-zoom&page-id=0%3A1&mode=design",
     imgSrc: "https://res.cloudinary.com/dr34kiiow/image/upload/v1708004830/abm/Screenshot_2024-02-14_at_14.30_uzg0hq.jpg",
     title: "THE GALLEY",
     text: "Local business poster commission. Saul Bass inspired with color and five line motif based on Isles of Scilly flag.",
@@ -54,8 +54,8 @@ export const designWork = [
     ]
   },
   {
-    link: "",
-    imgSrc: "https://res.cloudinary.com/dr34kiiow/image/upload/v1707921120/abm/Screenshot_2024-02-14_at_14.31.32_svgbiq.jpg",
+    link: "https://www.figma.com/proto/6i8Wn3LZx0ys1jtR7kbhCF/FSCH?type=design&node-id=1-2&t=zuRtWK1D6ADd2xmb-1&scaling=min-zoom&page-id=0%3A1&mode=design",
+    imgSrc: "https://res.cloudinary.com/dr34kiiow/image/upload/v1708601028/abm/school_iggxqy.png",
     title: "--- SCHOOL",
     text: "Tender job to rebrand a schools website. Tender not won but a 24 hour exercise in re-design and branding. School values and policies that inspired colour palette and font. School name hidden due to GDPR and code of conduct privacy, images are placeholders.",
     design: true,

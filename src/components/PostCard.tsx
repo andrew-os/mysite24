@@ -43,13 +43,16 @@ export default function PostCard({ title, link, text, tags, design, dev, imgSrc 
           </ul> */}
         </div>
         <footer>
-          <a
-            href={`${link}`}
-            target="_blank"
-            className="text-xs uppercase font-bold tracking-wider postcard-article__link opacity-80 hover:opacity-100"
-            onMouseEnter={toggleHover}
-            onMouseLeave={toggleHover}>
-            VIEW</a>
+          {
+          link ? (
+            <a
+              href={`${link}`}
+              target="_blank"
+              className="text-xs uppercase font-bold tracking-wider postcard-article__link opacity-80 hover:opacity-100"
+              onMouseEnter={toggleHover}
+              onMouseLeave={toggleHover}>
+              VIEW</a>
+          ): <span className="text-xs uppercase font-bold tracking-wider postcard-article__link opacity-80 text-[#A83131]">In DEV</span>}
         </footer>
       </article>
 
