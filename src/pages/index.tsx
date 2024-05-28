@@ -13,7 +13,7 @@ export default function Home() {
         </div>
         <section className="lg:my-16 my-8 row-start-2 col-span-8">
 
-          <p>I am a UI designer and developer currently based in Plymouth, UK.</p>
+          <p>I am a UI designer and developer currently based in Newquay, UK.</p>
           <div className="lg:mt-12 mt-8">
             <div className="flex flex-row gap-5">
               <LatestCV />
