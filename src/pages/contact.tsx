@@ -1,4 +1,4 @@
-import ContactForm from "@/components/ContactForm";
+// import ContactForm from "@/components/ContactForm";
 import Image from "next/image";
 
 export default function Contact() {
@@ -12,13 +12,13 @@ export default function Contact() {
           <section className="lg:my-16 lg:px-9 px-5">
             <div className="flex">
               <p className="mr-5">EMAIL</p>
-              <a href="mailto:contact@andrewbe.me" target="_blank" className="font-bold uppercase opacity-80 hover-line">CONTACT@ANDREWBE.ME</a>
+              <a href="mailto:andrew.sleighweb@gmail.com" target="_blank" className="font-bold uppercase opacity-80 hover-line">andrew.sleighweb@gmail.com</a>
             </div>
           </section>
 
           <section className="lg:mt-16 mt-8 lg:px-9 px-5 grid grid-cols-12">
-            <div className="lg:col-span-4">
-              <ContactForm />
+            <div className="lg:col-span-8">
+              {/* <ContactForm /> */}
             </div>
             </section>
         </div>
